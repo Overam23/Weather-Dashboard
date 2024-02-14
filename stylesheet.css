@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    height: 60vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#title {
+    text-align: center;
+}
+
+#search-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* display flex so displayed weather iamges doesn't overlap when screen is smaller  */
+.weather-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:black;
+    
+    /* styling for forecast boxes
+    aligned text center above weather iamges displayed */
+}
+.forecast-box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: blue;
+}
+
+/* floated history container to the left */
+/* added in border  */
+#history-container {
+    background-color:black;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+   
+}
+
+
+
+
+
+.history-item:hover {
+    background-color: blue;
+}

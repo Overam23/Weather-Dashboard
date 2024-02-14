@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <h1 id="title">Weather App </h1>
+    <div id="search-container">
+    <input type="text" id="cityInput" placeholder="Enter city name">
+
+    <button id = "weatherBttn" onclick="fetchWeather()">Get Weather</button>
+</div>
+    
+
+<div id="weatherInfo" class="weather-container"></div> <!-- This is where weather information will be displayed -->
+       <div id="history-container">
+        <h3>History</h3>
+        <div id="history"></div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+
+
+
+</body>
+
+
+
+</html>
